@@ -1,0 +1,13 @@
+[build]
+  command = "unzip -o LA_TAVOLA2_web_netlify.zip -d public"
+  publish = "public"
+
+[[redirects]]
+  from = "/aviso-legal"
+  to = "/aviso-legal.html"
+  status = 200
+
+[[redirects]]
+  from = "/politica-privacidad"
+  to = "/politica-privacidad.html"
+  status = 200
